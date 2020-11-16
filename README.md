@@ -1,1 +1,1 @@
-# This is the website for Comet Hsck
+# This is the website for Comet Hack
