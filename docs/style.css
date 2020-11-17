@@ -1,3 +1,9 @@
+body {
+  margin: 0px;
+  background: #060111;
+  font-family: "Questrial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
 .nav-item a,
 .navbar-brand {
   color: white;
@@ -6,9 +12,6 @@
 header {
   width: 100%;
   height: 100vh;
-  background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/edu_comet_large.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .title {
   font-size: 2rem;
@@ -17,11 +20,14 @@ header {
   top: 40%;
   color: white;
 }
+.title h1 {
+  font-size: 3rem;
+}
 .jumbotron {
   margin: auto;
   margin-top: 40px;
   margin-bottom: 60px;
-  background-image: url("https://wallpaperaccess.com/full/1092758.jpg");
+  background: linear-gradient(190deg, #060111, #4a3f63);
   color: white;
   text-align: center;
   width: 75vw;
@@ -32,6 +38,7 @@ header {
 }
 .info {
   margin: auto;
+  color: white;
 }
 .info .who {
   text-align: right;
@@ -52,13 +59,12 @@ li {
 }
 
 .faq-full {
-  background-image: url("https://wallpaperaccess.com/full/1092758.jpg");
+  background: linear-gradient(190deg, #060111, #4a3f63);
 }
 .faq {
   margin: auto;
   margin-top: 3%;
   padding-top: 2%;
-  margin-bottom: 3%;
   padding-bottom: 2%;
 }
 .faq h3 {
@@ -74,4 +80,8 @@ li {
 }
 .faq a .border:hover {
   color: red;
+}
+footer {
+  color: white;
+  margin-top: 2%;
 }
