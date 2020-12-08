@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Bootstrap links -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -28,25 +29,40 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- Interactive Background code -->
+    <!-- Interactive background -->
     <script
       data-who="💎 Made with naker.io 💎"
       src="https://d23jutsnau9x47.cloudfront.net/back/v1.0.9/viewer.js"
-      data-option="{|environment|:{|gradient|:|radial|,|sensitivity|:0.86,|colorStart|:[6,1,17,1],|colorEnd|:[1,9,24,1]},|particle|:{|life|:5,|power|:0.045,|texture|:|https://res.cloudinary.com/naker-io/image/upload/v1605926095/l87aas3zybbcakgu0pqz.png|,|number|:160,|colorStart|:[215,228,236,0.73],|colorEnd|:[131,129,134,0.83],|sizeStart|:2,|sizeEnd|:4,|direction1|:{|x|:0,|y|:100,|z|:100},|direction2|:{|x|:0,|y|:-100,|z|:-100}},|waterMark|:false}"
+      data-option="{|environment|:{|gradient|:|radial|,|sensitivity|:0.86,|colorStart|:[7,19,20,1],|colorEnd|:[4,5,5,1]},|particle|:{|life|:5,|power|:0.045,|texture|:|https://res.cloudinary.com/naker-io/image/upload/v1605926095/l87aas3zybbcakgu0pqz.png|,|number|:98,|colorStart|:[146,220,229,1],|colorEnd|:[236,226,208,1],|sizeStart|:2,|sizeEnd|:4,|direction1|:{|x|:0,|y|:100,|z|:100},|direction2|:{|x|:0,|y|:-100,|z|:-100}},|waterMark|:false}"
       data-container="header"
     ></script>
 
     <!-- Fonts -->
     <style>
       @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Questrial&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
     </style>
+
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/a5cedacfd6.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-sm fixed-top">
       <a class="navbar-brand" style="font-size: 1.35rem" href="#header"
-        >CometHack</a
+        >Comet Hack</a
       >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbar-content"
+      >
+        <i class="fas fa-bars" style="color: #ece2d0"></i>
+      </button>
       <div class="collapse navbar-collapse" id="navbar-content">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -65,16 +81,18 @@
       <div class="title">
         <h1>Comet Hack</h1>
         <h3>April 16-18 2020</h3>
+        <a class="btn btn-light btn-lg" href="#" role="button">Register</a>
       </div>
     </header>
 
     <div class="jumbotron">
       <p class="lead">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s.
+        As future engineers, we are expected to match the pace of technological
+        advancements. Yet, we are often lost in space looking for a starting
+        point. Comet Hack is dedicated to providing the resources and
+        opportunities to fuel our innovative spirits and creative ideas through
+        the virtual environment.
       </p>
-      <a class="btn btn-light btn-lg" href="#" role="button">Register</a>
     </div>
 
     <section class="info w-75" id="about">
@@ -82,15 +100,11 @@
         <div class="col-sm-6">
           <h3>What is Comet Hack?</h3>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Simply put, hackathons combine the two words: hacking and marathon.
+            Participants will get the chance to form teams of up to 1-4 members,
+            and bring a project idea to life! However, they only have 36 hours
+            to accomplish this. Students will receive mentorship, learn about
+            new job opportunities, and compete for some cool prizes!
           </p>
         </div>
       </div>
@@ -165,96 +179,103 @@
           <div class="col-sm-6 px-md-3 py-md-1">
             <a data-toggle="collapse" href="#q1">
               <div class="p-3 border rounded bg-light">
-                <span>Question #1</span>
+                <span>How does an online hackathon work?</span>
                 <span class="plus">+</span>
               </div>
             </a>
             <div class="collapse" id="q1" data-parent="#accfaq">
-              <div class="card card-body">Random text goes here...</div>
+              <div class="card card-body">
+                Over a 36 hour period, you’ll work in a team of 3-5 hackers to
+                make anything your heart desires! We are working around the
+                clock to make sure that this year’s virtual hackathon is as
+                normal as possible. You will still be able to meet new people,
+                work on awesome projects, and network with our sponsors. We will
+                announce more information on the specifics as we get closer to
+                Comet Hack.
+              </div>
             </div>
           </div>
 
           <div class="col-sm-6 px-md-3 py-md-1">
             <a data-toggle="collapse" href="#q2">
               <div class="p-3 border rounded bg-light">
-                <span>Question #2</span>
+                <span>Will there still be swag?</span>
                 <span class="plus">+</span>
               </div>
             </a>
             <div class="collapse" id="q2" data-parent="#accfaq">
-              <div class="card card-body">Random text goes here...</div>
+              <div class="card card-body">
+                Yes, although we are only able to ship to within the continental
+                United States. If you submit a project or if you will one of the
+                many raffles. Make sure to indicate that you are interested in
+                receiving swag when you apply.
+              </div>
             </div>
           </div>
 
           <div class="col-sm-6 px-md-3 py-md-1">
             <a data-toggle="collapse" href="#q3">
               <div class="p-3 border rounded bg-light">
-                <span>Question #3</span>
+                <span>What if I've never hacked before?</span>
                 <span class="plus">+</span>
               </div>
             </a>
             <div class="collapse" id="q3" data-parent="#accfaq">
-              <div class="card card-body">Random text goes here...</div>
+              <div class="card card-body">
+                That's totally fine! We'll have plenty of resources to help you
+                get started, including beginner workshops, mentors, and more.
+              </div>
             </div>
           </div>
 
           <div class="col-sm-6 px-md-3 py-md-1">
             <a data-toggle="collapse" href="#q4">
               <div class="p-3 border rounded bg-light">
-                <span>Question #4</span>
+                <span>Can I hack?</span>
                 <span class="plus">+</span>
               </div>
             </a>
             <div class="collapse" id="q4" data-parent="#accfaq">
-              <div class="card card-body">Random text goes here...</div>
+              <div class="card card-body">
+                High schoolers over 18, undergraduates, and graduate students
+                are welcome to participate as hackers. We encourage makers of
+                all levels to come build and learn! We’ve got tons of mentors
+                and we really focus on catering to newcomers’ needs by providing
+                tutorials and online resources. We are extremely beginner
+                friendly!
+              </div>
             </div>
           </div>
 
           <div class="col-sm-6 px-md-3 py-md-1">
             <a data-toggle="collapse" href="#q5">
               <div class="p-3 border rounded bg-light">
-                <span>Question #5</span>
+                <span>How can I contact you or ask questions?</span>
                 <span class="plus">+</span>
               </div>
             </a>
             <div class="collapse" id="q5" data-parent="#accfaq">
-              <div class="card card-body">Random text goes here...</div>
+              <div class="card card-body">
+                Join our discord and we can answer any questions there. Make
+                sure to also join our social media to make sure you don’t miss
+                any announcements.
+              </div>
             </div>
           </div>
 
           <div class="col-sm-6 px-md-3 py-md-1">
             <a data-toggle="collapse" href="#q6">
               <div class="p-3 border rounded bg-light">
-                <span>Question #6</span>
+                <span>How much does it cost?</span>
                 <span class="plus">+</span>
               </div>
             </a>
             <div class="collapse" id="q6" data-parent="#accfaq">
-              <div class="card card-body">Random text goes here...</div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 px-md-3 py-md-1">
-            <a data-toggle="collapse" href="#q7">
-              <div class="p-3 border rounded bg-light">
-                <span>Question #7</span>
-                <span class="plus">+</span>
+              <div class="card card-body">
+                This event is completely free! We’ll provide food and drinks in
+                addition to a plethora of materials and tools for all hackers.
+                Everything's on us!
               </div>
-            </a>
-            <div class="collapse" id="q7" data-parent="#accfaq">
-              <div class="card card-body">Random text goes here...</div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 px-md-3 py-md-1">
-            <a data-toggle="collapse" href="#q8">
-              <div class="p-3 border rounded bg-light">
-                <span>Question #8</span>
-                <span class="plus">+</span>
-              </div>
-            </a>
-            <div class="collapse" id="q8" data-parent="#accfaq">
-              <div class="card card-body">Random text goes here...</div>
             </div>
           </div>
         </div>
