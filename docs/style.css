@@ -7,6 +7,7 @@ body {
 }
 .navbar {
   font-family: "Goldman", cursive;
+  background-color: #040505;
 }
 .nav-item a,
 .navbar-brand {
@@ -27,7 +28,7 @@ header {
   font-size: 3rem;
   text-align: center;
   position: relative;
-  top: 40%;
+  top: 30%;
   font-family: "Goldman", cursive;
 }
 .title h1 {
@@ -37,16 +38,16 @@ header {
   margin: auto;
   margin-top: 40px;
   margin-bottom: 60px;
-  background: linear-gradient(190deg, #060111, #92dce5);
+  background: #ece2d0;
   text-align: center;
   width: 75vw;
   height: auto;
 }
-.jumbotron a {
-  margin-top: 5%;
-}
 .info {
   margin: auto;
+}
+.info p {
+  font-size: 1.15rem;
 }
 .info .who {
   text-align: right;
@@ -74,7 +75,7 @@ li {
   padding-top: 2%;
   padding-bottom: 2%;
 }
-.faq h3 {
+.faq h2 {
   text-align: center;
 }
 .plus {
