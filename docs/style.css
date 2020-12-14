@@ -9,6 +9,9 @@ body {
   font-family: "Goldman", cursive;
   background-color: #040505;
 }
+.navbar-nav {
+  float: right;
+}
 .nav-item a,
 .navbar-brand {
   font-size: 1.2rem;
