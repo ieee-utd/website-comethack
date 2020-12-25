@@ -46,8 +46,14 @@ header {
   width: 75vw;
   height: auto;
 }
+.info-container {
+  background-color: #d5ab2c;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 .info {
   margin: auto;
+  color: black;
 }
 .info p {
   font-size: 1.15rem;
@@ -70,7 +76,7 @@ li {
 }
 
 .faq-full {
-  background: linear-gradient(190deg, #060111, #b98ea7);
+  /*background: linear-gradient(190deg, #060111, #d5ab2c);*/
 }
 .faq {
   margin: auto;
