@@ -65,7 +65,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar-content">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#schedule">Schedule</a>
           </li> -->
@@ -82,12 +84,12 @@
         <img src="goldlogo.png" alt="logo" class="img-fluid" width="200;
         height="auto" />
         <h1 class="d-sm-inline">Comet Hack</h1>
-        <h3>April 16-18, 2020</h3>
+        <h3>April 16-18, 2021</h3>
         <a class="btn btn-light btn-lg" href="#" role="button">Register</a>
       </div>
     </header>
 
-    <div class="jumbotron">
+    <!--<div class="jumbotron">
       <h2 style="text-align: center; color: black">Our Mission Statement</h2>
       <h4 class="lead" style="color: #040505">
         As future engineers, we are expected to match the pace of technological
@@ -96,9 +98,21 @@
         opportunities to fuel our innovative spirits and creative ideas through
         the virtual environment.
       </h4>
-    </div>
+    </div> -->
     <div class="info-container" id="about">
-      <section class="info w-75">
+      <section class="info w-75 rounded">
+        <div class="jumbotron w-75" style="background-color: #d5ab2c">
+          <h2 style="text-align: center; color: black">
+            Our Mission Statement
+          </h2>
+          <h4 class="lead" style="color: #040505">
+            As future engineers, we are expected to set the pace of
+            technological advancements. Yet, we are often lost in space looking
+            for a starting point. Comet Hack is dedicated to providing the
+            resources and opportunities to fuel our innovative spirits and
+            creative ideas through the virtual environment.
+          </h4>
+        </div>
         <div class="what row">
           <div class="col-sm-6">
             <h3>What is Comet Hack?</h3>
@@ -115,18 +129,17 @@
         <hr />
         <div class="who row justify-content-end">
           <div class="col-sm-6">
-            <h3>Who Can Participate?</h3>
+            <h3>Why Should You Attend?</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              You can create bonds and have unforgettable memories with friends
+              from all over the country or even the world. You can meet with
+              large companies and inspiring startups that are looking for
+              talented students like you. You can attend fun-packed festivities
+              to make friends and destress. You can learn about how to transfer
+              your skills to industry or academia. You can work on amazing hacks
+              with help from your peers and mentors. And of course, you can
+              compete to win $4000 in prizes ranging from airpods to Nintendo
+              Switches.
             </p>
           </div>
         </div>
@@ -255,6 +268,34 @@
           </div>
 
           <div class="col-sm-6 px-md-3 py-md-1">
+            <a data-toggle="collapse" href="#q4">
+              <div class="p-3 border rounded bg-light">
+                <span>How do I join the hacking community?</span>
+                <span class="plus">+</span>
+              </div>
+            </a>
+            <div class="collapse" id="q4" data-parent="#accfaq">
+              <div class="card card-body">
+                Join our discord! We will make announcements and can answer any
+                questions there. Make sure to also join our social media to make
+                sure you don’t miss any announcements.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-md-3 py-md-1">
+            <a data-toggle="collapse" href="#q4">
+              <div class="p-3 border rounded bg-light">
+                <span>When does registration close?</span>
+                <span class="plus">+</span>
+              </div>
+            </a>
+            <div class="collapse" id="q4" data-parent="#accfaq">
+              <div class="card card-body">TBA</div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-md-3 py-md-1">
             <a data-toggle="collapse" href="#q5">
               <div class="p-3 border rounded bg-light">
                 <span>How can I contact you or ask questions?</span>
@@ -292,5 +333,7 @@
     <footer class="navbar">
       <p>&copy; 2020 Comet Hack</p>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
