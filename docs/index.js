@@ -1,4 +1,29 @@
 (function ($) {
+  $(document).ready(function () {
+    $(this).scrollTop(0);
+  });
+
+  // disable the landing page animations to wait for the loading screen
+  $("#home #mainNav").addClass("disable");
+  $("#home #landingPageTitle").addClass("disable");
+  $("#home #landingPageButton").addClass("disable");
+  $("#home #logo").addClass("disable");
+  $("#home #date").addClass("disable");
+
+  $(window).on("load", function () {
+    setTimeout(function () {
+      $("body").addClass("loaded");
+
+      setTimeout(function () {
+        $("#home #mainNav").removeClass("disable");
+        $("#home #landingPageTitle").removeClass("disable");
+        $("#home #landingPageButton").removeClass("disable");
+        $("#home #logo").removeClass("disable");
+        $("#home #date").removeClass("disable");
+      }, 1000);
+    }, 2000);
+  });
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
     if (
@@ -11,7 +36,7 @@
       if (target.length) {
         $("html, body").animate(
           {
-            scrollTop: target.offset().top - 70,
+            scrollTop: target.offset().top - 55,
           },
           1000,
           "easeInOutExpo"
@@ -21,11 +46,17 @@
     }
   });
 
-  $(window).scroll(function () {
-    var target = $("#about");
+  $(".navbar-brand").click(function () {
+    var target = $("#home");
     target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
     if (target.length) {
-      $("#arrows").fadeOut();
+      $("html, body").animate(
+        {
+          scrollTop: target.offset().top - 55,
+        },
+        1000,
+        "easeInOutExpo"
+      );
       return false;
     }
   });
@@ -37,16 +68,16 @@
 
   // Activate scrollspy to add active class to navbar items on scroll
   $("body").scrollspy({
-    target: "#navbar-content",
+    target: "#mainNav",
     offset: 100,
   });
 
   // Collapse Navbar
   var navbarCollapse = function () {
-    if ($("#navbar-content").offset().top > 100) {
-      $("#navbar-content").addClass("navbar-shrink");
+    if ($("#mainNav").offset().top > 100) {
+      $("#mainNav").addClass("navbar-shrink");
     } else {
-      $("#navbar-content").removeClass("navbar-shrink");
+      $("#mainNav").removeClass("navbar-shrink");
     }
   };
   // Collapse now if page is not at top
