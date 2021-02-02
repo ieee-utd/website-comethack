@@ -71,16 +71,16 @@ hr {
 }
 .nav-item a:hover {
   transition: ease-in 0.2s;
-  background-color: #b80000;
-  box-shadow: 0px 4px 0px 0px #920101;
+  background-color: #7b6d8d;
+  box-shadow: 0px 4px 0px 0px rgb(89, 63, 98);
 }
 .nav-link.active {
-  background-color: #b80000;
-  box-shadow: 0px 4px 0px 0px #920101;
+  background-color: #7b6d8d; /*#b80000;*/
+  box-shadow: 0px 4px 0px 0px rgb(89, 63, 98); /*#920101;*/
 }
 @media (max-width: 991px) {
   .navbar {
-    background-color: white;
+    background-color: #040505;
   }
 
   #mainNav {
@@ -91,9 +91,6 @@ header {
   width: 100%;
   height: 100vh;
 }
-/*#header a {
-  background: #ece2d0;
-}*/
 .title {
   font-size: 4rem;
   text-align: center;
@@ -117,12 +114,13 @@ header {
   animation-duration: 1s;
   animation-delay: 1.5s;
   animation-fill-mode: backwards;
+  background-color: #ece2d0;
 }
 .jumbotron {
   margin: auto;
   margin-top: 40px;
   margin-bottom: 100px;
-  /*background: #ece2d0;*/
+  background: #ece2d0;
   text-align: center;
   height: auto;
 }
@@ -193,6 +191,10 @@ li {
 }
 .faq .card {
   color: black;
+  background: #ece2d0;
+}
+.p-3 {
+  background-color: #ece2d0;
 }
 footer {
   margin-top: 2%;
