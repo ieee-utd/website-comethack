@@ -48,7 +48,8 @@ hr {
   width: 0%;
   content: ".";
   color: transparent;
-  background: #d5ab2c;
+  /*background: #d5ab2c;*/
+  background: #a5c4d4;
   height: 1px;
 }
 
@@ -59,7 +60,8 @@ hr {
   opacity: 0;
 }
 .navbar-brand:hover {
-  color: #d5ab2c;
+  /*color: #d5ab2c;*/
+  color: #a5c4d4;
   z-index: 1;
 }
 .navbar-brand:hover:after {
@@ -148,18 +150,39 @@ header {
 .info .who {
   text-align: right;
 }
+
 .schedule {
-  background-image: url("https://wallpaperaccess.com/full/1092758.jpg");
-}
-.sched {
   margin: auto;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  background-color: #a5c4d4;
+  padding: 50px 10px;
+  color: black;
+}
+#schedHead {
+  font-weight: bold;
+  text-align: center;
+  color: #a5c4d4;
+  margin-bottom: 2%;
+}
+.schedule h3 {
+  font-weight: normal;
+  color: black;
+  margin-bottom: 2%;
   text-align: center;
 }
-li {
+.schedItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.day {
+  margin: 5px;
+  flex-basis: 400px;
+  font-size: 1.175rem;
+  letter-spacing: 0.02rem;
+}
+.day ul {
   list-style-type: none;
-  line-height: 2rem;
+  line-height: 50px;
 }
 
 .faq-full {
@@ -187,7 +210,7 @@ li {
   letter-spacing: 00.02rem;
 }
 .faq a .border:hover {
-  color: #b80000;
+  background-color: #a5c4d4;
 }
 .faq .card {
   color: black;
