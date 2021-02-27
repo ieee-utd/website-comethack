@@ -160,7 +160,7 @@ header {
 #schedHead {
   font-weight: bold;
   text-align: center;
-  color: #a5c4d4;
+  color: #ece2d0;
   margin-bottom: 2%;
 }
 .schedule h3 {
@@ -219,8 +219,33 @@ header {
 .p-3 {
   background-color: #ece2d0;
 }
+.contact-info {
+  display: inline-block;
+}
+.contact-info a {
+  font-size: 1.5rem;
+}
 footer {
   margin-top: 2%;
+}
+.social-icons a {
+  margin-right: 5px;
+}
+.fa-facebook-square,
+.contact-info .fa-facebook-square {
+  color: #3b5998;
+  background: white;
+}
+.fa-instagram-square,
+.contact-info .fa-instagram-square {
+  color: #cd486b;
+  background: white;
+  display: inline;
+}
+.fa-linkedin,
+.contact-info .fa-linkedin {
+  color: #007bb5;
+  background: white;
 }
 
 /* Page Loader */
