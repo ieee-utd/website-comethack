@@ -227,9 +227,17 @@ header {
 }
 footer {
   margin-top: 2%;
+  font-size: 1.2rem;
+}
+footer p {
+  margin-bottom: 0;
+}
+footer img {
+  text-align: center;
 }
 .social-icons a {
-  margin-right: 5px;
+  margin: 20px 10px;
+  color: #a5c4d4;
 }
 .fa-facebook-square,
 .contact-info .fa-facebook-square {
