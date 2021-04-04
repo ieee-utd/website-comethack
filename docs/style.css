@@ -370,6 +370,9 @@ footer p {
 }
 footer img {
   text-align: center;
+  height: 30px;
+  width: auto;
+  margin: 0 10px;
 }
 .social-icons a {
   margin: 20px 10px;
