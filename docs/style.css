@@ -204,20 +204,17 @@ header {
 }
 .faq a {
   text-decoration: none;
-  color: black;
-  background: #ece2d0;
-  font-size: 1.15rem;
+  color: #ece2d0;
+  font-size: 1.25rem;
   letter-spacing: 00.02rem;
 }
 .faq a .border:hover {
   background-color: #a5c4d4;
 }
 .faq .card {
-  color: black;
-  background: #ece2d0;
-}
-.p-3 {
-  background-color: #ece2d0;
+  color: #ece2d0;
+  background: #7b6d8d;
+  border: none;
 }
 .contact-info {
   display: inline-block;
