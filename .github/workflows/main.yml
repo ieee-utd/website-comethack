@@ -26,4 +26,5 @@ jobs:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: |
           cp CNAME docs/CNAME
+          cp docs/index.html docs/404.html
           surge docs
