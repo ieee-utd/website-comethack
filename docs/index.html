@@ -428,9 +428,11 @@
             <div class="card card-body contact-info">
               Feel free to email us with questions at comethack21@gmail.com or
               connect with our social media.
-              <a href="https://www.facebook.com/CometHack" class="rounded fab fa-facebook-square fa-2x" target="_blank"></a>
-              <a href="https://www.instagram.com/comet_hack/" class="rounded fab fa-instagram-square fa-2x" target="_blank"></a>
-              <a href="https://www.linkedin.com/company/comet-hack/about/" class="rounded fab fa-linkedin fa-2x" target="_blank"></a>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/CometHack" class="fab fa-facebook-f fa-lg" target="_blank"></a>
+                <a href="https://www.instagram.com/comet_hack/" class="fab fa-instagram fa-lg" target="_blank"></a>
+                <a href="https://www.linkedin.com/company/comet-hack/about/" class="fab fa-linkedin-in fa-lg" target="_blank"></a>
+              </div>
             </div>
           </div>
         </div>
@@ -547,7 +549,7 @@
       </section>
     </section> -->
 
-    <!--
+
     <section class='members-full'>
       <section class='members w-75 text-center'>
         <h2>Our Team</h2>
@@ -580,48 +582,15 @@
                 </div>
               </div>
             </div>
-
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6 member">
-                  <img src="sponsors-logos/darkPurpleLogo.png" alt="">
-                  <div class="member-info">
-                    <h4>Name</h4>
-                    <span>Industry Lead</span>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 member">
-                  <img src="sponsors-logos/darkPurpleLogo.png" alt="">
-                  <div class="member-info">
-                    <h4>Name</h4>
-                    <span>Industry Member</span>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 member">
-                  <img src="sponsors-logos/darkPurpleLogo.png" alt="">
-                  <div class="member-info">
-                    <h4>Name</h4>
-                    <span>Industry Correspondent</span>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 member">
-                  <img src="sponsors-logos/darkPurpleLogo.png" alt="">
-                  <div class="member-info">
-                    <h4>Name</h4>
-                    <span>Industry Correspondent</span>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
           <ol class="carousel-indicators">
               <li data-target="#directorCaro" data-slide-to="0" class="active"></li>
-              <li data-target="#industryCaro" data-slide-to="1"></li>
+              <!-- <li data-target="#directorCaro" data-slide-to="1"></li> -->
           </ol>
         </div>
 
-        <h3>Development</h3>
-        <div id="devCaro" class='carousel slide' data-ride='carousel'>
+        <h3>Committee Leads</h3>
+        <div id="committeeCaro" class='carousel slide' data-ride='carousel'>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
@@ -632,19 +601,6 @@
                     <h5>Development Lead</h5>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <ol class="carousel-indicators">
-              <li data-target="#devCaro" data-slide-to="0" class="active"></li>
-          </ol>
-        </div>
-
-        <h3>Industry</h3>
-        <div id="industryCaro" class='carousel slide' data-ride='carousel'>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 member">
                   <img src="members-profile-pictures/200.jpg" alt="">
                   <div class="member-info">
@@ -652,19 +608,6 @@
                     <h5>Industry Lead</h5>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <ol class="carousel-indicators">
-              <li data-target="#industryCaro" data-slide-to="0" class="active"></li>
-          </ol>
-        </div>
-
-        <h3>Marketing</h3>
-        <div id="marketingCaro" class='carousel slide' data-ride='carousel'>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 member">
                   <img src="members-profile-pictures/300.jpg" alt="">
                   <div class="member-info">
@@ -674,16 +617,7 @@
                 </div>
               </div>
             </div>
-          </div>
-          <ol class="carousel-indicators">
-              <li data-target="#marketingCaro" data-slide-to="0" class="active"></li>
-          </ol>
-        </div>
-
-        <h3>Experience</h3>
-        <div id="experienceCaro" class='carousel slide' data-ride='carousel'>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item">
               <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 member">
                   <img src="members-profile-pictures/400.jpg" alt="">
@@ -692,19 +626,6 @@
                     <h5>Experience Lead</h5>
                   </div>
                 </div>
-               </div>
-            </div>
-          </div>
-          <ol class="carousel-indicators">
-              <li data-target="#experienceCaro" data-slide-to="0" class="active"></li>
-          </ol>
-        </div>
-
-        <h3>Logistics</h3>
-        <div id="logisticsCaro" class='carousel slide' data-ride='carousel'>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 member">
                   <img src="members-profile-pictures/500.png" alt="">
                   <div class="member-info">
@@ -716,12 +637,13 @@
             </div>
           </div>
           <ol class="carousel-indicators">
-              <li data-target="#logisticsCaro" data-slide-to="0" class="active"></li>
+              <li data-target="#comitteeCaro" data-slide-to="0" class="active"></li>
+              <li data-target="#comitteeCaro" data-slide-to="1"</li>
           </ol>
         </div>
       </section>
     </section>
-  -->
+
 
   <footer class="navbar">
     <p>&copy; 2021 Comet Hack&nbsp</p>

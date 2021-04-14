@@ -216,6 +216,11 @@ header {
   color: black;
   background: #ece2d0;
 }
+
+.faq .card .social-icons {
+  color: #a5c4d4;
+}
+
 .p-3 {
   background-color: #ece2d0;
 }
