@@ -216,6 +216,11 @@ header {
   background: #7b6d8d;
   border: none;
 }
+
+.faq .card .social-icons a {
+  color: #ece2d0;
+}
+
 .contact-info {
   display: inline-block;
 }
