@@ -111,6 +111,10 @@ header {
   animation-name: topDown;
   animation-duration: 2s;
 }
+.title h2 {
+  padding: 20px;
+  text-decoration: underline;
+}
 .title h3 {
   animation: bottomUp 2s;
 }
@@ -335,8 +339,8 @@ header {
 .member {
   margin: 25px auto 0;
   padding: 20px 20px 0;
-  width: 350px;
-  height: 500px;
+  width: 250px;
+  height: 400px;
   position: relative;
   border-bottom: 4px solid #00325a;
   text-align: center;
