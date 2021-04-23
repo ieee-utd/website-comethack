@@ -115,7 +115,7 @@ header {
   padding-top: 20px;
   color: #ece2d0;
 }
-.title h2 {
+.title h5 {
   animation: bottomUp 2s;
   padding: 20px;
   text-decoration: underline;
@@ -197,7 +197,10 @@ header {
 }
 .day ul {
   list-style-type: none;
-  line-height: 50px;
+  line-height: 30px;
+}
+.day li {
+
 }
 
 .faq-full {
