@@ -200,7 +200,7 @@ header {
   line-height: 30px;
 }
 .day li {
-
+  margin-bottom: 5px;
 }
 
 .faq-full {
