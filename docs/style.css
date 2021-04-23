@@ -111,6 +111,10 @@ header {
   animation-name: topDown;
   animation-duration: 2s;
 }
+.title h4 {
+  padding-top: 20px;
+  color: #ece2d0;
+}
 .title h2 {
   animation: bottomUp 2s;
   padding: 20px;
