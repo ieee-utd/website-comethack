@@ -1,7 +1,7 @@
 @import url(animations.css);
 body {
   margin: 0px;
-  background-color: #7b6d8d;
+  background-color: #A8DADC;
   font-family: "Questrial", sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #a5c4d4;
@@ -28,7 +28,7 @@ hr {
 
 .navbar {
   font-family: "Goldman", cursive;
-  background-color: #040505;
+  background-color: #1D3557;
   animation-name: topDown;
   animation-duration: 1s;
 }
@@ -38,7 +38,7 @@ hr {
 .nav-item a,
 .navbar-brand {
   font-size: 1.35rem;
-  color: #ece2d0;
+  color: #F1FAEE;
 }
 
 /* stroke */
@@ -52,7 +52,7 @@ hr {
   content: ".";
   color: transparent;
   /*background: #d5ab2c;*/
-  background: #a5c4d4;
+  background: #1D3557;
   height: 1px;
 }
 
@@ -64,7 +64,7 @@ hr {
 }
 .navbar-brand:hover {
   /*color: #d5ab2c;*/
-  color: #a5c4d4;
+  color: #A8DADC;
   z-index: 1;
 }
 .navbar-brand:hover:after {
@@ -76,20 +76,20 @@ hr {
 }
 .nav-item a:hover {
   transition: ease-in 0.2s;
-  background-color: #7b6d8d;
-  box-shadow: 0px 4px 0px 0px rgb(89, 63, 98);
+  background-color: #A8DADC ;
+  box-shadow: 0px 4px 0px 0px #A8DADC;
 }
 .nav-link.active {
-  background-color: #7b6d8d; /*#b80000;*/
-  box-shadow: 0px 4px 0px 0px rgb(89, 63, 98); /*#920101;*/
+  background-color: #A8DADC; /*#b80000;*/
+  box-shadow: 0px 4px 0px 0px #A8DADC; /*#920101;*/
 }
 @media (max-width: 991px) {
   .navbar {
-    background-color: #040505;
+    background-color: #1D3557;
   }
 
   #mainNav {
-    color: #161616;
+    color: #457B9D;
   }
 }
 header {
@@ -113,7 +113,7 @@ header {
 }
 .title h4 {
   padding-top: 20px;
-  color: #ece2d0;
+  color: #F1FAEE;
 }
 .title h5 {
   animation: bottomUp 2s;
@@ -130,23 +130,23 @@ header {
   animation-duration: 1s;
   animation-delay: 1.5s;
   animation-fill-mode: backwards;
-  background-color: #ece2d0;
+  background-color: #F1FAEE;
   margin: 0 10px;
 }
 .jumbotron {
   margin: auto;
   margin-top: 40px;
   margin-bottom: 100px;
-  background: #ece2d0;
+  background: #F1FAEE;
   text-align: center;
   height: auto;
 }
 .info-container {
   background: linear-gradient(
     to bottom,
-    rgba(43, 16, 17, 1) 10%,
-    rgb(89, 63, 98) 60%,
-    #7b6d8d 100%
+    #1D3557 10%,
+    #457B9D 60%,
+    #A8DADC 100%
   );
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -221,15 +221,15 @@ header {
 #mentorHead {
   font-weight: bold;
   text-align: center;
-  color: #ece2d0;
+  color: #1D3557;
 }
 .plus {
   float: right;
 }
 .faq a {
   text-decoration: none;
-  color: black;
-  background: #ece2d0;
+  color: #1D3557;
+  background: #F1FAEE;
   font-size: 1.15rem;
   letter-spacing: 00.02rem;
 }
@@ -239,8 +239,8 @@ header {
   background-color: #a5c4d4;
 }
 .faq .card {
-  color: black;
-  background: #ece2d0;
+  color: #C0EB33;
+  background: #F1FAEE;
 }
 
 .faq .card .social-icons {
@@ -248,7 +248,7 @@ header {
 }
 
 .p-3 {
-  background-color: #ece2d0;
+  background-color: #F1FAEE;
 }
 .contact-info {
   display: inline-block;
